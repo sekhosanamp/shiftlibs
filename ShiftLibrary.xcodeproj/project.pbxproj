@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68170FA827E8E6FB00BFDE96 /* ShiftLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68170FA727E8E6FB00BFDE96 /* ShiftLibrary.swift */; };
 		68501B4027E8BA96005AE7A9 /* ShiftLibrary.docc in Sources */ = {isa = PBXBuildFile; fileRef = 68501B3F27E8BA96005AE7A9 /* ShiftLibrary.docc */; };
 		68501B4627E8BA96005AE7A9 /* ShiftLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68501B3B27E8BA96005AE7A9 /* ShiftLibrary.framework */; };
 		68501B4B27E8BA96005AE7A9 /* ShiftLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B4A27E8BA96005AE7A9 /* ShiftLibraryTests.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68170FA727E8E6FB00BFDE96 /* ShiftLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibrary.swift; sourceTree = "<group>"; };
 		68501B3B27E8BA96005AE7A9 /* ShiftLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68501B3E27E8BA96005AE7A9 /* ShiftLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftLibrary.h; sourceTree = "<group>"; };
 		68501B3F27E8BA96005AE7A9 /* ShiftLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ShiftLibrary.docc; sourceTree = "<group>"; };
@@ -110,7 +112,6 @@
 		68501B3127E8BA96005AE7A9 = {
 			isa = PBXGroup;
 			children = (
-				68501B5527E8BAC8005AE7A9 /* Example */,
 				68501B3D27E8BA96005AE7A9 /* ShiftLibrary */,
 				68501B4927E8BA96005AE7A9 /* ShiftLibraryTests */,
 				68501B5B27E8BB42005AE7A9 /* ShiftLibraryExample */,
@@ -137,6 +138,7 @@
 			children = (
 				68501B3E27E8BA96005AE7A9 /* ShiftLibrary.h */,
 				68501B3F27E8BA96005AE7A9 /* ShiftLibrary.docc */,
+				68170FA727E8E6FB00BFDE96 /* ShiftLibrary.swift */,
 			);
 			path = ShiftLibrary;
 			sourceTree = "<group>";
@@ -147,13 +149,6 @@
 				68501B4A27E8BA96005AE7A9 /* ShiftLibraryTests.swift */,
 			);
 			path = ShiftLibraryTests;
-			sourceTree = "<group>";
-		};
-		68501B5527E8BAC8005AE7A9 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 		68501B5B27E8BB42005AE7A9 /* ShiftLibraryExample */ = {
@@ -388,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68501B4027E8BA96005AE7A9 /* ShiftLibrary.docc in Sources */,
+				68170FA827E8E6FB00BFDE96 /* ShiftLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +643,7 @@
 		68501B5327E8BA97005AE7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -667,6 +664,7 @@
 		68501B5427E8BA97005AE7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
