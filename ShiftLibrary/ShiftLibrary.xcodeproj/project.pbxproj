@@ -20,6 +20,7 @@
 		68501B7427E8BB44005AE7A9 /* ShiftLibraryExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B7327E8BB44005AE7A9 /* ShiftLibraryExampleTests.swift */; };
 		68501B7E27E8BB44005AE7A9 /* ShiftLibraryExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B7D27E8BB44005AE7A9 /* ShiftLibraryExampleUITests.swift */; };
 		68501B8027E8BB44005AE7A9 /* ShiftLibraryExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B7F27E8BB44005AE7A9 /* ShiftLibraryExampleUITestsLaunchTests.swift */; };
+		686D47DE27E8EF8300CBE3F4 /* ShiftLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686D47DD27E8EF8300CBE3F4 /* ShiftLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		68501B7927E8BB44005AE7A9 /* ShiftLibraryExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftLibraryExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68501B7D27E8BB44005AE7A9 /* ShiftLibraryExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibraryExampleUITests.swift; sourceTree = "<group>"; };
 		68501B7F27E8BB44005AE7A9 /* ShiftLibraryExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibraryExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		686D47DD27E8EF8300CBE3F4 /* ShiftLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				68501B3E27E8BA96005AE7A9 /* ShiftLibrary.h */,
 				68501B3F27E8BA96005AE7A9 /* ShiftLibrary.docc */,
+				686D47DD27E8EF8300CBE3F4 /* ShiftLibrary.swift */,
 			);
 			path = ShiftLibrary;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686D47DE27E8EF8300CBE3F4 /* ShiftLibrary.swift in Sources */,
 				68501B4027E8BA96005AE7A9 /* ShiftLibrary.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,6 +651,7 @@
 		68501B5327E8BA97005AE7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -667,6 +672,7 @@
 		68501B5427E8BA97005AE7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
