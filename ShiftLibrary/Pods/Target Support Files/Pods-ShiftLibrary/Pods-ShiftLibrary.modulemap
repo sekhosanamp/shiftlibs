@@ -1,0 +1,6 @@
+module Pods_ShiftLibrary {
+  umbrella header "Pods-ShiftLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

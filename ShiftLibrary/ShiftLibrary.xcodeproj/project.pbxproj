@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680F7EFC27EA7C0C00DA9A37 /* ShiftLibraryCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F7EFB27EA7C0C00DA9A37 /* ShiftLibraryCalculate.swift */; };
 		68501B4027E8BA96005AE7A9 /* ShiftLibrary.docc in Sources */ = {isa = PBXBuildFile; fileRef = 68501B3F27E8BA96005AE7A9 /* ShiftLibrary.docc */; };
 		68501B4627E8BA96005AE7A9 /* ShiftLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68501B3B27E8BA96005AE7A9 /* ShiftLibrary.framework */; };
 		68501B4B27E8BA96005AE7A9 /* ShiftLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B4A27E8BA96005AE7A9 /* ShiftLibraryTests.swift */; };
@@ -20,6 +21,7 @@
 		68501B7427E8BB44005AE7A9 /* ShiftLibraryExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B7327E8BB44005AE7A9 /* ShiftLibraryExampleTests.swift */; };
 		68501B7E27E8BB44005AE7A9 /* ShiftLibraryExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B7D27E8BB44005AE7A9 /* ShiftLibraryExampleUITests.swift */; };
 		68501B8027E8BB44005AE7A9 /* ShiftLibraryExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68501B7F27E8BB44005AE7A9 /* ShiftLibraryExampleUITestsLaunchTests.swift */; };
+		E7909836F8A152BD6BD59F22 /* libPods-ShiftLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF487BF8739194230D867F5 /* libPods-ShiftLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192DBE54F5C78F25B7ABB0AF /* Pods-ShiftLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiftLibrary.debug.xcconfig"; path = "Target Support Files/Pods-ShiftLibrary/Pods-ShiftLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF487BF8739194230D867F5 /* libPods-ShiftLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShiftLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F7EFB27EA7C0C00DA9A37 /* ShiftLibraryCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibraryCalculate.swift; sourceTree = "<group>"; };
 		68501B3B27E8BA96005AE7A9 /* ShiftLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68501B3E27E8BA96005AE7A9 /* ShiftLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftLibrary.h; sourceTree = "<group>"; };
 		68501B3F27E8BA96005AE7A9 /* ShiftLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ShiftLibrary.docc; sourceTree = "<group>"; };
@@ -65,6 +70,7 @@
 		68501B7927E8BB44005AE7A9 /* ShiftLibraryExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftLibraryExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68501B7D27E8BB44005AE7A9 /* ShiftLibraryExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibraryExampleUITests.swift; sourceTree = "<group>"; };
 		68501B7F27E8BB44005AE7A9 /* ShiftLibraryExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLibraryExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4033000AEFEC23A133E6A99 /* Pods-ShiftLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiftLibrary.release.xcconfig"; path = "Target Support Files/Pods-ShiftLibrary/Pods-ShiftLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7909836F8A152BD6BD59F22 /* libPods-ShiftLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,16 +114,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		408442F2CF64CEA041B37CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF487BF8739194230D867F5 /* libPods-ShiftLibrary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68501B3127E8BA96005AE7A9 = {
 			isa = PBXGroup;
 			children = (
-				68501B5527E8BAC8005AE7A9 /* Example */,
+				680F7EFB27EA7C0C00DA9A37 /* ShiftLibraryCalculate.swift */,
 				68501B3D27E8BA96005AE7A9 /* ShiftLibrary */,
 				68501B4927E8BA96005AE7A9 /* ShiftLibraryTests */,
 				68501B5B27E8BB42005AE7A9 /* ShiftLibraryExample */,
 				68501B7227E8BB44005AE7A9 /* ShiftLibraryExampleTests */,
 				68501B7C27E8BB44005AE7A9 /* ShiftLibraryExampleUITests */,
 				68501B3C27E8BA96005AE7A9 /* Products */,
+				D34BECB56928D1DE0380E1BC /* Pods */,
+				408442F2CF64CEA041B37CC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,13 +164,6 @@
 				68501B4A27E8BA96005AE7A9 /* ShiftLibraryTests.swift */,
 			);
 			path = ShiftLibraryTests;
-			sourceTree = "<group>";
-		};
-		68501B5527E8BAC8005AE7A9 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 		68501B5B27E8BB42005AE7A9 /* ShiftLibraryExample */ = {
@@ -187,6 +197,15 @@
 			path = ShiftLibraryExampleUITests;
 			sourceTree = "<group>";
 		};
+		D34BECB56928D1DE0380E1BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				192DBE54F5C78F25B7ABB0AF /* Pods-ShiftLibrary.debug.xcconfig */,
+				A4033000AEFEC23A133E6A99 /* Pods-ShiftLibrary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -205,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68501B4F27E8BA97005AE7A9 /* Build configuration list for PBXNativeTarget "ShiftLibrary" */;
 			buildPhases = (
+				297ABA32B172A8494C553195 /* [CP] Check Pods Manifest.lock */,
 				68501B3627E8BA96005AE7A9 /* Headers */,
 				68501B3727E8BA96005AE7A9 /* Sources */,
 				68501B3827E8BA96005AE7A9 /* Frameworks */,
@@ -382,12 +402,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		297ABA32B172A8494C553195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShiftLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68501B3727E8BA96005AE7A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68501B4027E8BA96005AE7A9 /* ShiftLibrary.docc in Sources */,
+				680F7EFC27EA7C0C00DA9A37 /* ShiftLibraryCalculate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +636,7 @@
 		};
 		68501B5027E8BA97005AE7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192DBE54F5C78F25B7ABB0AF /* Pods-ShiftLibrary.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -618,6 +665,7 @@
 		};
 		68501B5127E8BA97005AE7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4033000AEFEC23A133E6A99 /* Pods-ShiftLibrary.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -647,6 +695,7 @@
 		68501B5327E8BA97005AE7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -667,6 +716,7 @@
 		68501B5427E8BA97005AE7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
