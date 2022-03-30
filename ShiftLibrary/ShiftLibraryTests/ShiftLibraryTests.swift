@@ -21,6 +21,6 @@ class ShiftLibraryTests: XCTestCase {
     }
 
     func testGivenTwoNumbers_whenSubstracting_thenAnswerIsCorrect() {
-        XCTAssertEqual(shiftLibrary.substractIntegers(a: 5, b: 2), 3)
+        XCTAssertEqual(shiftLibrary.substractInt(a: 5, b: 2), 3)
     }
 }
