@@ -15,7 +15,11 @@ class ShiftLibraryCalculate {
         return a + b
     }
 
-    public func substractIntegers(a: Int, b: Int) -> Int {
+    public func subtractIntegers(a: Int, b: Int) -> Int {
+        return a - b
+    }
+
+    public func subtractDecimals(a: Double, b: Double) -> Double {
         return a - b
     }
 

@@ -21,6 +21,12 @@ class ShiftLibraryTests: XCTestCase {
     }
 
     func testGivenTwoNumbers_whenSubstracting_thenAnswerIsCorrect() {
-        XCTAssertEqual(shiftLibrary.substractIntegers(a: 5, b: 2), 3)
+        XCTAssertEqual(shiftLibrary.subtractIntegers(a: 5, b: 2), 3)
+    }
+
+    func testGivenTwoDecimals_whenSubtracting_thenAnswerIsCorrect() {
+        XCTAssertEqual(shiftLibrary.subtractDecimals(a: 5.5, b: 2.2), 3.3)
+        XCTAssertEqual(shiftLibrary.subtractDecimals(a: 2.0, b: 3.0), -1.0)
+        XCTAssertEqual(shiftLibrary.subtractDecimals(a: -2.5, b: -1.0), -1.5)
     }
 }
