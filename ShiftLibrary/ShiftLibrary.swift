@@ -15,7 +15,7 @@ class ShiftLibrary {
         return a + b
     }
 
-    public func substractInteger(a: Int, b: Int) -> Int {
+    public func subtractInteger(a: Int, b: Int) -> Int {
         return a - b
     }
 
